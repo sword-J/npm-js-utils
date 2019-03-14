@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/sword-J/npm-js-utils.svg?branch=master)](https://travis-ci.org/sword-J/npm-js-utils)
