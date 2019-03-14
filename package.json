@@ -1,0 +1,25 @@
+{
+  "name": "npm-fj",
+  "version": "1.0.2",
+  "description": "提取一些常用的方法",
+  "main": "lib/index.js",
+  "scripts": {
+    "eslint": "eslint --fix src",
+    "build": "babel src -d lib",
+    "test": "npm run build && mocha -t 5000",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "keywords": [
+    "js",
+    "utils"
+  ],
+  "author": "fujun",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.0.2"
+  }
+}
